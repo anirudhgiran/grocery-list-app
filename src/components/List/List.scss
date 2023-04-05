@@ -1,0 +1,10 @@
+@import "../../styles/colors";
+
+.list {
+    position: relative;
+    width: 440px;
+    height: auto;
+    min-height: 100%;
+    background-color: $white;
+    border-radius: 15px;
+}

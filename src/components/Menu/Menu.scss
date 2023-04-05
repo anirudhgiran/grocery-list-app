@@ -1,0 +1,33 @@
+@import "../../styles/colors";
+
+.menu {
+    position: relative;
+    width: 250px;
+    height: auto;
+    background-color: $white;
+    min-height: 400px; //delete later
+    margin-right: 10px;
+    border-radius: 15px;
+    padding: 15px;
+
+    .user {
+        position: relative;
+        width: 100%;
+        height: auto;
+        border-bottom: 2px solid $black;
+
+        p {
+            position: relative;
+            font-size: 16px;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+        h1 {
+            position: relative;
+            font-size: 20px;
+            font-weight: 400;
+            text-overflow: ellipsis;
+            overflow: hidden;
+        }
+    }
+}
